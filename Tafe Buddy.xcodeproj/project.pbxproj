@@ -12,7 +12,6 @@
 		77116EF11E968BA100CB37FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77116EF01E968BA100CB37FD /* AppDelegate.swift */; };
 		77116F061E968BA100CB37FD /* Tafe_BuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77116F051E968BA100CB37FD /* Tafe_BuddyTests.swift */; };
 		77116F111E968BA100CB37FD /* Tafe_BuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77116F101E968BA100CB37FD /* Tafe_BuddyUITests.swift */; };
-		77116F231E968BB700CB37FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77116F1E1E968BB700CB37FD /* Main.storyboard */; };
 		77116F241E968BB700CB37FD /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77116F1F1E968BB700CB37FD /* SignIn.swift */; };
 		77116F251E968BB700CB37FD /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77116F201E968BB700CB37FD /* MainScreen.swift */; };
 		77116F261E968BB700CB37FD /* CourseInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77116F211E968BB700CB37FD /* CourseInfo.swift */; };
@@ -43,7 +42,6 @@
 		779D00E41EBB319A00A7E64F /* QRScan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779D00E31EBB319A00A7E64F /* QRScan.swift */; };
 		77AAB7041E9B4DD100B99AFF /* PasswordReset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AAB7031E9B4DD100B99AFF /* PasswordReset.swift */; };
 		77D571FF1E9D1F3F0028DF65 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D571FE1E9D1F3F0028DF65 /* Settings.swift */; };
-		77E329C01E968E640042CB32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77E329BF1E968E640042CB32 /* LaunchScreen.storyboard */; };
 		77E5219E1E9D254400D73D47 /* Tafe_Adelaide_Campus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77E5219D1E9D254400D73D47 /* Tafe_Adelaide_Campus.jpg */; };
 		77F293E11E9A3FF200868448 /* Moodle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F293E01E9A3FF200868448 /* Moodle.swift */; };
 		77F9316A1E97888A00FE6CB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77F931691E97888A00FE6CB4 /* Assets.xcassets */; };
@@ -78,7 +76,6 @@
 		77116F0C1E968BA100CB37FD /* Tafe BuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tafe BuddyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77116F101E968BA100CB37FD /* Tafe_BuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tafe_BuddyUITests.swift; sourceTree = "<group>"; };
 		77116F121E968BA100CB37FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		77116F1E1E968BB700CB37FD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		77116F1F1E968BB700CB37FD /* SignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
 		77116F201E968BB700CB37FD /* MainScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 		77116F211E968BB700CB37FD /* CourseInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseInfo.swift; sourceTree = "<group>"; };
@@ -109,7 +106,6 @@
 		779D00E31EBB319A00A7E64F /* QRScan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScan.swift; sourceTree = "<group>"; };
 		77AAB7031E9B4DD100B99AFF /* PasswordReset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordReset.swift; sourceTree = "<group>"; };
 		77D571FE1E9D1F3F0028DF65 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
-		77E329BF1E968E640042CB32 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77E5219D1E9D254400D73D47 /* Tafe_Adelaide_Campus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tafe_Adelaide_Campus.jpg; sourceTree = "<group>"; };
 		77F293E01E9A3FF200868448 /* Moodle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Moodle.swift; sourceTree = "<group>"; };
 		77F931691E97888A00FE6CB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -168,13 +164,11 @@
 				77F9316B1E9788AF00FE6CB4 /* Main View */,
 				77AAB7011E9B4D1C00B99AFF /* Menu View */,
 				77AAB7021E9B4D2600B99AFF /* Button View */,
-				77116F1E1E968BB700CB37FD /* Main.storyboard */,
 				77116EF01E968BA100CB37FD /* AppDelegate.swift */,
 				18F29B4E1ED6C36A00D0BFD8 /* Main.storyboard */,
 				18F29B4D1ED6C36A00D0BFD8 /* LaunchScreen.storyboard */,
 				77116EFC1E968BA100CB37FD /* Info.plist */,
 				77F931691E97888A00FE6CB4 /* Assets.xcassets */,
-				77E329BF1E968E640042CB32 /* LaunchScreen.storyboard */,
 			);
 			path = "Tafe Buddy";
 			sourceTree = "<group>";
@@ -382,7 +376,6 @@
 				77116F301E968BDE00CB37FD /* logo_TAFESA.png in Resources */,
 				7783EC031EC48CD5003F94CA /* qr-code.ico in Resources */,
 				7783EBE31EC47C85003F94CA /* tafelogored.png in Resources */,
-				77116F231E968BB700CB37FD /* Main.storyboard in Resources */,
 				7783EBF51EC48889003F94CA /* ic_cast_connected.png in Resources */,
 				18F29B4F1ED6C36A00D0BFD8 /* LaunchScreen.storyboard in Resources */,
 				7783EBFD1EC48B50003F94CA /* ic_info.png in Resources */,
@@ -395,7 +388,6 @@
 				7783EBF71EC48A75003F94CA /* ic_photo_library.png in Resources */,
 				7783EBE71EC47D4E003F94CA /* ic_menu.png in Resources */,
 				7783EBF91EC48AE6003F94CA /* ic_alarm_add.png in Resources */,
-				77E329C01E968E640042CB32 /* LaunchScreen.storyboard in Resources */,
 				7783EBEF1EC48770003F94CA /* ic_email_3x.png in Resources */,
 				77F9316A1E97888A00FE6CB4 /* Assets.xcassets in Resources */,
 				77116F371E968BE700CB37FD /* Wave.wav in Resources */,
