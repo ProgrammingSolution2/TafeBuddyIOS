@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18F29B4F1ED6C36A00D0BFD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F29B4D1ED6C36A00D0BFD8 /* LaunchScreen.storyboard */; };
+		18F29B501ED6C36A00D0BFD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F29B4E1ED6C36A00D0BFD8 /* Main.storyboard */; };
 		77116EF11E968BA100CB37FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77116EF01E968BA100CB37FD /* AppDelegate.swift */; };
 		77116F061E968BA100CB37FD /* Tafe_BuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77116F051E968BA100CB37FD /* Tafe_BuddyTests.swift */; };
 		77116F111E968BA100CB37FD /* Tafe_BuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77116F101E968BA100CB37FD /* Tafe_BuddyUITests.swift */; };
@@ -65,6 +67,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18F29B4D1ED6C36A00D0BFD8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18F29B4E1ED6C36A00D0BFD8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		77116EED1E968BA100CB37FD /* Tafe Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tafe Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77116EF01E968BA100CB37FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77116EFC1E968BA100CB37FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -166,6 +170,8 @@
 				77AAB7021E9B4D2600B99AFF /* Button View */,
 				77116F1E1E968BB700CB37FD /* Main.storyboard */,
 				77116EF01E968BA100CB37FD /* AppDelegate.swift */,
+				18F29B4E1ED6C36A00D0BFD8 /* Main.storyboard */,
+				18F29B4D1ED6C36A00D0BFD8 /* LaunchScreen.storyboard */,
 				77116EFC1E968BA100CB37FD /* Info.plist */,
 				77F931691E97888A00FE6CB4 /* Assets.xcassets */,
 				77E329BF1E968E640042CB32 /* LaunchScreen.storyboard */,
@@ -378,8 +384,10 @@
 				7783EBE31EC47C85003F94CA /* tafelogored.png in Resources */,
 				77116F231E968BB700CB37FD /* Main.storyboard in Resources */,
 				7783EBF51EC48889003F94CA /* ic_cast_connected.png in Resources */,
+				18F29B4F1ED6C36A00D0BFD8 /* LaunchScreen.storyboard in Resources */,
 				7783EBFD1EC48B50003F94CA /* ic_info.png in Resources */,
 				77116F2F1E968BDE00CB37FD /* training-winner.jpg in Resources */,
+				18F29B501ED6C36A00D0BFD8 /* Main.storyboard in Resources */,
 				7783EBFB1EC48B31003F94CA /* ic_account_box.png in Resources */,
 				7783EBF31EC487F9003F94CA /* ic_map_3x.png in Resources */,
 				77116F2D1E968BDE00CB37FD /* tafe.png in Resources */,
