@@ -252,6 +252,9 @@
                                                             <state key="normal" title="Time Table">
                                                                 <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             </state>
+                                                            <connections>
+                                                                <segue destination="eNK-YB-ikI" kind="show" id="oZh-Nf-bUL"/>
+                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                     <userDefinedRuntimeAttributes>
@@ -1253,6 +1256,44 @@ Sessions</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YCU-bT-tih" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="422" y="-657"/>
+        </scene>
+        <!--Time Table-->
+        <scene sceneID="WCR-Ax-XqZ">
+            <objects>
+                <viewController id="eNK-YB-ikI" customClass="TimeTable" customModule="Tafe_Buddy" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6Ql-tf-nuY"/>
+                        <viewControllerLayoutGuide type="bottom" id="jk9-0U-1w8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tUm-9e-BYQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vdg-jh-jZI">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="rvq-vm-LG1">
+                                <rect key="frame" x="177" y="314" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="vdg-jh-jZI" secondAttribute="trailing" id="FSR-lG-Bwp"/>
+                            <constraint firstItem="vdg-jh-jZI" firstAttribute="top" secondItem="tUm-9e-BYQ" secondAttribute="top" id="Rgi-dL-omc"/>
+                            <constraint firstItem="jk9-0U-1w8" firstAttribute="top" secondItem="vdg-jh-jZI" secondAttribute="bottom" id="ZNo-Iw-zs4"/>
+                            <constraint firstItem="vdg-jh-jZI" firstAttribute="leading" secondItem="tUm-9e-BYQ" secondAttribute="leading" id="Zm7-Ho-DiG"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="loadingIndicator" destination="rvq-vm-LG1" id="9H7-Kp-FWV"/>
+                        <outlet property="timeTableWebView" destination="vdg-jh-jZI" id="Mah-w8-DtX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vol-gD-wEU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-103" y="205"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="K91-gy-WIP">

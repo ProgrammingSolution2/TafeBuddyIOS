@@ -11,6 +11,7 @@
 		18F29B501ED6C36A00D0BFD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F29B4E1ED6C36A00D0BFD8 /* Main.storyboard */; };
 		27163E541EDBD97300E605E4 /* CounsellingSessions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27163E531EDBD97300E605E4 /* CounsellingSessions.swift */; };
 		27163E581EDBE33900E605E4 /* ic_counselling.gif in Resources */ = {isa = PBXBuildFile; fileRef = 27163E571EDBE33900E605E4 /* ic_counselling.gif */; };
+		27163E5A1EDC2DB900E605E4 /* TimeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27163E591EDC2DB900E605E4 /* TimeTable.swift */; };
 		77116EF11E968BA100CB37FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77116EF01E968BA100CB37FD /* AppDelegate.swift */; };
 		77116F061E968BA100CB37FD /* Tafe_BuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77116F051E968BA100CB37FD /* Tafe_BuddyTests.swift */; };
 		77116F111E968BA100CB37FD /* Tafe_BuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77116F101E968BA100CB37FD /* Tafe_BuddyUITests.swift */; };
@@ -71,6 +72,7 @@
 		18F29B4E1ED6C36A00D0BFD8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		27163E531EDBD97300E605E4 /* CounsellingSessions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounsellingSessions.swift; sourceTree = "<group>"; };
 		27163E571EDBE33900E605E4 /* ic_counselling.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ic_counselling.gif; sourceTree = "<group>"; };
+		27163E591EDC2DB900E605E4 /* TimeTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeTable.swift; sourceTree = "<group>"; };
 		77116EED1E968BA100CB37FD /* Tafe Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tafe Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77116EF01E968BA100CB37FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77116EFC1E968BA100CB37FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -252,6 +254,7 @@
 				7754F7B11E97B8570091B082 /* Campus Map.swift */,
 				7754F7B51E97C0590091B082 /* CampusDetails.swift */,
 				27163E531EDBD97300E605E4 /* CounsellingSessions.swift */,
+				27163E591EDC2DB900E605E4 /* TimeTable.swift */,
 			);
 			name = "Button View";
 			sourceTree = "<group>";
@@ -423,6 +426,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7754F7B41E97BECE0091B082 /* CampusMapTableView.swift in Sources */,
+				27163E5A1EDC2DB900E605E4 /* TimeTable.swift in Sources */,
 				77116F261E968BB700CB37FD /* CourseInfo.swift in Sources */,
 				77F293E11E9A3FF200868448 /* Moodle.swift in Sources */,
 				77116F251E968BB700CB37FD /* MainScreen.swift in Sources */,

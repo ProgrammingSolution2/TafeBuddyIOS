@@ -1,5 +1,5 @@
 //
-//  CounsellingSessions.swift
+//  TimeTable.swift
 //  Tafe Buddy
 //
 //  Created by Hai on 29/5/17.
@@ -8,23 +8,23 @@
 
 import UIKit
 
-class CounsellingSessions: UIViewController {
-    @IBOutlet weak var webView: UIWebView!    
-    @IBOutlet weak var loadingIndicator: UIActivityIndicatorView!
+class TimeTable: UIViewController {
 
-    
+    @IBOutlet weak var loadingIndicator: UIActivityIndicatorView!
+    @IBOutlet weak var timeTableWebView: UIWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        let url  = URL(string:"https://www.tafesa.edu.au/services/counselling")
+        let url  = URL(string:"https://my.tafesa.edu.au/PROD/bwskfshd.P_CrseSchd")
         let requestObject = URLRequest(url: url!)
-        self.webView.loadRequest(requestObject)
-        webView.scrollView.bounces = false
+        self.timeTableWebView.loadRequest(requestObject)
+        timeTableWebView.scrollView.bounces = false
         self.navigationController?.navigationBar.isTranslucent = false
+        //navigationController?.navigationBar.barTintColor = UIColor.red
     }
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        self.navigationController?.hidesBarsOnSwipe = true
+        //self.navigationController?.hidesBarsOnSwipe = true
     }
     
     func webViewDidStartLoad(_ webView: UIWebView){
@@ -38,5 +38,5 @@ class CounsellingSessions: UIViewController {
     func webView(_ webView: UIWebView, didFailLoadWithError error: Error){
         
     }
-
+    
 }
