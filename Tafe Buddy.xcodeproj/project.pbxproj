@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		18F29B4F1ED6C36A00D0BFD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F29B4D1ED6C36A00D0BFD8 /* LaunchScreen.storyboard */; };
 		18F29B501ED6C36A00D0BFD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F29B4E1ED6C36A00D0BFD8 /* Main.storyboard */; };
+		27163E541EDBD97300E605E4 /* CounsellingSessions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27163E531EDBD97300E605E4 /* CounsellingSessions.swift */; };
+		27163E581EDBE33900E605E4 /* ic_counselling.gif in Resources */ = {isa = PBXBuildFile; fileRef = 27163E571EDBE33900E605E4 /* ic_counselling.gif */; };
 		77116EF11E968BA100CB37FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77116EF01E968BA100CB37FD /* AppDelegate.swift */; };
 		77116F061E968BA100CB37FD /* Tafe_BuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77116F051E968BA100CB37FD /* Tafe_BuddyTests.swift */; };
 		77116F111E968BA100CB37FD /* Tafe_BuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77116F101E968BA100CB37FD /* Tafe_BuddyUITests.swift */; };
@@ -67,6 +69,8 @@
 /* Begin PBXFileReference section */
 		18F29B4D1ED6C36A00D0BFD8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18F29B4E1ED6C36A00D0BFD8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		27163E531EDBD97300E605E4 /* CounsellingSessions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounsellingSessions.swift; sourceTree = "<group>"; };
+		27163E571EDBE33900E605E4 /* ic_counselling.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ic_counselling.gif; sourceTree = "<group>"; };
 		77116EED1E968BA100CB37FD /* Tafe Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tafe Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77116EF01E968BA100CB37FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77116EFC1E968BA100CB37FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -207,6 +211,7 @@
 			children = (
 				7783EC021EC48CD5003F94CA /* qr-code.ico */,
 				7783EBFE1EC48BC9003F94CA /* ic_build.png */,
+				27163E571EDBE33900E605E4 /* ic_counselling.gif */,
 				7783EBFC1EC48B50003F94CA /* ic_info.png */,
 				7783EBFA1EC48B31003F94CA /* ic_account_box.png */,
 				7783EBF81EC48AE6003F94CA /* ic_alarm_add.png */,
@@ -246,6 +251,7 @@
 				7754F7B31E97BECE0091B082 /* CampusMapTableView.swift */,
 				7754F7B11E97B8570091B082 /* Campus Map.swift */,
 				7754F7B51E97C0590091B082 /* CampusDetails.swift */,
+				27163E531EDBD97300E605E4 /* CounsellingSessions.swift */,
 			);
 			name = "Button View";
 			sourceTree = "<group>";
@@ -388,6 +394,7 @@
 				7783EBF71EC48A75003F94CA /* ic_photo_library.png in Resources */,
 				7783EBE71EC47D4E003F94CA /* ic_menu.png in Resources */,
 				7783EBF91EC48AE6003F94CA /* ic_alarm_add.png in Resources */,
+				27163E581EDBE33900E605E4 /* ic_counselling.gif in Resources */,
 				7783EBEF1EC48770003F94CA /* ic_email_3x.png in Resources */,
 				77F9316A1E97888A00FE6CB4 /* Assets.xcassets in Resources */,
 				77116F371E968BE700CB37FD /* Wave.wav in Resources */,
@@ -423,6 +430,7 @@
 				771AA0911EBB71C600AC54F3 /* QRHistory.swift in Sources */,
 				77116F241E968BB700CB37FD /* SignIn.swift in Sources */,
 				77AAB7041E9B4DD100B99AFF /* PasswordReset.swift in Sources */,
+				27163E541EDBD97300E605E4 /* CounsellingSessions.swift in Sources */,
 				7754F7B61E97C0590091B082 /* CampusDetails.swift in Sources */,
 				7754F7B21E97B8570091B082 /* Campus Map.swift in Sources */,
 				77D571FF1E9D1F3F0028DF65 /* Settings.swift in Sources */,
