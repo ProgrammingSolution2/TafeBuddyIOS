@@ -48,6 +48,7 @@
 		77E5219E1E9D254400D73D47 /* Tafe_Adelaide_Campus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77E5219D1E9D254400D73D47 /* Tafe_Adelaide_Campus.jpg */; };
 		77F293E11E9A3FF200868448 /* Moodle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F293E01E9A3FF200868448 /* Moodle.swift */; };
 		77F9316A1E97888A00FE6CB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77F931691E97888A00FE6CB4 /* Assets.xcassets */; };
+		8050395C1EDE62C0003D3656 /* FAQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8050395B1EDE62C0003D3656 /* FAQ.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +116,7 @@
 		77E5219D1E9D254400D73D47 /* Tafe_Adelaide_Campus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tafe_Adelaide_Campus.jpg; sourceTree = "<group>"; };
 		77F293E01E9A3FF200868448 /* Moodle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Moodle.swift; sourceTree = "<group>"; };
 		77F931691E97888A00FE6CB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8050395B1EDE62C0003D3656 /* FAQ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQ.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,6 +245,7 @@
 				77D571FE1E9D1F3F0028DF65 /* Settings.swift */,
 				779D00E31EBB319A00A7E64F /* QRScan.swift */,
 				771AA0901EBB71C600AC54F3 /* QRHistory.swift */,
+				8050395B1EDE62C0003D3656 /* FAQ.swift */,
 			);
 			name = "Menu View";
 			sourceTree = "<group>";
@@ -437,6 +440,7 @@
 				27163E541EDBD97300E605E4 /* CounsellingSessions.swift in Sources */,
 				7754F7B61E97C0590091B082 /* CampusDetails.swift in Sources */,
 				7754F7B21E97B8570091B082 /* Campus Map.swift in Sources */,
+				8050395C1EDE62C0003D3656 /* FAQ.swift in Sources */,
 				77D571FF1E9D1F3F0028DF65 /* Settings.swift in Sources */,
 				77116F271E968BB700CB37FD /* Video.swift in Sources */,
 				779D00E41EBB319A00A7E64F /* QRScan.swift in Sources */,
