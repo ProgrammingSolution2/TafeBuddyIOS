@@ -45,6 +45,7 @@
 		77E5219E1E9D254400D73D47 /* Tafe_Adelaide_Campus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77E5219D1E9D254400D73D47 /* Tafe_Adelaide_Campus.jpg */; };
 		77F293E11E9A3FF200868448 /* Moodle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F293E01E9A3FF200868448 /* Moodle.swift */; };
 		77F9316A1E97888A00FE6CB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77F931691E97888A00FE6CB4 /* Assets.xcassets */; };
+		AEE4597A1EE006D4006CC01D /* MyAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE459791EE006D4006CC01D /* MyAccount.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +110,7 @@
 		77E5219D1E9D254400D73D47 /* Tafe_Adelaide_Campus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tafe_Adelaide_Campus.jpg; sourceTree = "<group>"; };
 		77F293E01E9A3FF200868448 /* Moodle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Moodle.swift; sourceTree = "<group>"; };
 		77F931691E97888A00FE6CB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEE459791EE006D4006CC01D /* MyAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAccount.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +238,7 @@
 				77D571FE1E9D1F3F0028DF65 /* Settings.swift */,
 				779D00E31EBB319A00A7E64F /* QRScan.swift */,
 				771AA0901EBB71C600AC54F3 /* QRHistory.swift */,
+				AEE459791EE006D4006CC01D /* MyAccount.swift */,
 			);
 			name = "Menu View";
 			sourceTree = "<group>";
@@ -424,6 +427,7 @@
 				77116F241E968BB700CB37FD /* SignIn.swift in Sources */,
 				77AAB7041E9B4DD100B99AFF /* PasswordReset.swift in Sources */,
 				7754F7B61E97C0590091B082 /* CampusDetails.swift in Sources */,
+				AEE4597A1EE006D4006CC01D /* MyAccount.swift in Sources */,
 				7754F7B21E97B8570091B082 /* Campus Map.swift in Sources */,
 				77D571FF1E9D1F3F0028DF65 /* Settings.swift in Sources */,
 				77116F271E968BB700CB37FD /* Video.swift in Sources */,
