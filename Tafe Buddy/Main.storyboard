@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Wa4-ec-O2W">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Wa4-ec-O2W">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -252,6 +252,9 @@
                                                             <state key="normal" title="Time Table">
                                                                 <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             </state>
+                                                            <connections>
+                                                                <segue destination="eNK-YB-ikI" kind="show" id="oZh-Nf-bUL"/>
+                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                     <userDefinedRuntimeAttributes>
@@ -407,11 +410,14 @@
                                                             <rect key="frame" x="0.0" y="0.0" width="115" height="100"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
-                                                            <state key="normal">
+                                                            <state key="normal" backgroundImage="ic_counselling.gif">
                                                                 <string key="title">Countselling 
 Sessions</string>
                                                                 <color key="titleColor" red="0.99989169840000003" green="1" blue="0.99988096950000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             </state>
+                                                            <connections>
+                                                                <segue destination="nI3-Rx-E0s" kind="show" id="L7G-BX-W3S"/>
+                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                 </view>
@@ -469,11 +475,50 @@ Sessions</string>
                         <outlet property="oneNoteBtn" destination="Iid-p1-BP4" id="D2Q-Bz-DJE"/>
                         <outlet property="tasksBtn" destination="Vta-k7-48b" id="v0Z-pT-ulH"/>
                         <outlet property="videoBtn" destination="ly9-Im-J8o" id="ibY-9h-iOd"/>
+                        <segue destination="ZH6-bR-Aoe" kind="show" id="QCy-dF-3yQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1837.5999999999999" y="230.73463268365819"/>
+            <point key="canvasLocation" x="1769" y="205"/>
+        </scene>
+        <!--Counselling Sessions-->
+        <scene sceneID="ndZ-nz-Tcz">
+            <objects>
+                <viewController id="nI3-Rx-E0s" customClass="CounsellingSessions" customModule="Tafe_Buddy" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3Ut-oR-Ju9"/>
+                        <viewControllerLayoutGuide type="bottom" id="LjD-Dg-9hs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="52e-eo-NvR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r5x-Ta-Isv">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="h6S-Nk-mxL">
+                                <rect key="frame" x="177" y="352" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="r5x-Ta-Isv" firstAttribute="leading" secondItem="52e-eo-NvR" secondAttribute="leading" id="8SZ-ZV-W0i"/>
+                            <constraint firstItem="LjD-Dg-9hs" firstAttribute="top" secondItem="r5x-Ta-Isv" secondAttribute="bottom" id="Lp9-cj-2Od"/>
+                            <constraint firstAttribute="trailing" secondItem="r5x-Ta-Isv" secondAttribute="trailing" id="OyC-kC-gvV"/>
+                            <constraint firstItem="r5x-Ta-Isv" firstAttribute="top" secondItem="52e-eo-NvR" secondAttribute="top" id="REu-tT-ub3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="loadingIndicator" destination="h6S-Nk-mxL" id="BUT-W4-Pg9"/>
+                        <outlet property="webView" destination="r5x-Ta-Isv" id="Ner-N2-WBf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MNa-tU-66Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="205.59999999999999" y="976.46176911544239"/>
         </scene>
         <!--Campus Map Table View-->
         <scene sceneID="1y8-oI-WzI">
@@ -690,6 +735,24 @@ Sessions</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dms-fb-LJh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3244" y="993.55322338830592"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Bqi-SC-wZO">
+            <objects>
+                <viewController id="ZH6-bR-Aoe" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CWP-cX-7WB"/>
+                        <viewControllerLayoutGuide type="bottom" id="dEZ-yN-oRX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="G88-1r-rY5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ksh-go-fzp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3972" y="913"/>
         </scene>
         <!--Course Info-->
         <scene sceneID="TlZ-K9-eBn">
@@ -1194,6 +1257,44 @@ Sessions</string>
             </objects>
             <point key="canvasLocation" x="422" y="-657"/>
         </scene>
+        <!--Time Table-->
+        <scene sceneID="WCR-Ax-XqZ">
+            <objects>
+                <viewController id="eNK-YB-ikI" customClass="TimeTable" customModule="Tafe_Buddy" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6Ql-tf-nuY"/>
+                        <viewControllerLayoutGuide type="bottom" id="jk9-0U-1w8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tUm-9e-BYQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vdg-jh-jZI">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="rvq-vm-LG1">
+                                <rect key="frame" x="177" y="314" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="vdg-jh-jZI" secondAttribute="trailing" id="FSR-lG-Bwp"/>
+                            <constraint firstItem="vdg-jh-jZI" firstAttribute="top" secondItem="tUm-9e-BYQ" secondAttribute="top" id="Rgi-dL-omc"/>
+                            <constraint firstItem="jk9-0U-1w8" firstAttribute="top" secondItem="vdg-jh-jZI" secondAttribute="bottom" id="ZNo-Iw-zs4"/>
+                            <constraint firstItem="vdg-jh-jZI" firstAttribute="leading" secondItem="tUm-9e-BYQ" secondAttribute="leading" id="Zm7-Ho-DiG"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="loadingIndicator" destination="rvq-vm-LG1" id="9H7-Kp-FWV"/>
+                        <outlet property="timeTableWebView" destination="vdg-jh-jZI" id="Mah-w8-DtX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vol-gD-wEU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-103" y="205"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="K91-gy-WIP">
             <objects>
@@ -1223,6 +1324,7 @@ Sessions</string>
         <image name="ic_alarm_add.png" width="24" height="24"/>
         <image name="ic_build.png" width="24" height="24"/>
         <image name="ic_cast_connected.png" width="24" height="24"/>
+        <image name="ic_counselling.gif" width="240" height="240"/>
         <image name="ic_email_3x.png" width="72" height="72"/>
         <image name="ic_info.png" width="24" height="24"/>
         <image name="ic_map_3x.png" width="72" height="72"/>
