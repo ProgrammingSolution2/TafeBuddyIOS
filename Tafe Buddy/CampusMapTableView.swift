@@ -73,13 +73,22 @@ class CampusMapTableView: UIViewController,UITableViewDataSource,UITableViewDele
     
     //Campus Location
     func campusLocation(){
-        let map1 = CampusDetails(latitude:-34.923990,longtitude: 138.59492,title:"Adelaide City Campus",subTitle:"Tafe SA")
-        let map2 = CampusDetails(latitude:-34.924345,longtitude: 138.592337,title:"Adelaide College of the Arts",subTitle:"Art School")
-        let map3 = CampusDetails(latitude:-34.762962,longtitude: 138.647457,title:"Salisbury Campus",subTitle:"Tafe SA")
+        let map1 = CampusDetails(latitude:-34.923990,longtitude: 138.59492,title:"Adelaide City Campus",subTitle:"Adult education school in the Adelaide city centre, South Australia")
+        let map2 = CampusDetails(latitude:-34.924345,longtitude: 138.592337,title:"Adelaide College of the Arts",subTitle:"Art School in Adelaide South Australia")
+        let map3 = CampusDetails(latitude:-34.762962,longtitude: 138.647457,title:"Salisbury Campus",subTitle:"Adult education in Salisbury, South Australia")
         let map4 = CampusDetails(latitude:-34.873225,longtitude: 138.568542,title:"Regency Campus",subTitle:"College in Regency Park, South Australia")
         let map5 = CampusDetails(latitude:-34.789226,longtitude: 138.635041,title:"Parafield Campus",subTitle:"Technical school in Parafield, South Australia")
-        let map6 = CampusDetails(latitude:-34.970137,longtitude: 138.626863,title:"Urrbrae Campus",subTitle:"Adult education school in Netherby, South Australia")
-        campusArray=[map1,map2,map3,map4,map5,map6]
+        let map6 = CampusDetails(latitude:-34.970137,longtitude: 138.626863,title:"Urrbrae Campus",subTitle:"Adult education in Netherby, South Australia")
+        let map7 = CampusDetails(latitude:-34.712285, longtitude: 138.671369, title: "Elizabeth Campus", subTitle: "College in Woodford, South Australia")
+        let map8 = CampusDetails(latitude:-34.851231, longtitude: 138.651734, title: "Gilles Plains Campus", subTitle: "Adult Education in Gilles Plains, South Australia")
+        let map9 = CampusDetails(latitude:-34.843514, longtitude: 138.500064, title: "Port Adelaide Campus", subTitle: "Adult Education in Port Adelaide, South Australia")
+        let map10 = CampusDetails(latitude:-34.832087, longtitude: 138.695673, title: "Modbury Campus", subTitle: "Adult Education in Modbury, South Australia")
+        let map11 = CampusDetails(latitude:-35.008670, longtitude: 138.571015, title: "Clovelly Park Campus", subTitle: "Adult Education in Clovelly, South Australia")
+        let map12 = CampusDetails(latitude:-35.139967, longtitude: 138.497292, title: "Noarlunga Campus", subTitle: "Adult Education in Noarlunga, South Australia")
+        let map13 = CampusDetails(latitude:-34.462525, longtitude: 138.984110, title: "Nuriootpa Campus", subTitle: "Adult Education in Nuriootpa, South Australia")
+        let map14 = CampusDetails(latitude:-35.068789, longtitude: 138.854308, title: "Mount Barker Campus", subTitle: "Adult Education in Mount Barker, South Australia")
+        let map15 = CampusDetails(latitude:-35.125573, longtitude: 139.277821, title: "Murray Bridge Campus", subTitle: "Adult Education in Murray Bridge, South Australia")
+        campusArray=[map1,map2,map3,map4,map5,map6,map7,map8,map9,map10,map11,map12,map13,map14,map15]
         campusArray.sort( by: {$0.title < $1.title})
     }
     
