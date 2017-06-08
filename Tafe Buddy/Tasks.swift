@@ -5,7 +5,7 @@
 
 import UIKit
 
-class OneNote: UIViewController
+class Tasks: UIViewController
 {
 	@IBOutlet weak var loadingIndicator: UIActivityIndicatorView!
     @IBOutlet weak var timeTableWebView: UIWebView!
