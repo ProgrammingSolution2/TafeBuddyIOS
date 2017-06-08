@@ -48,6 +48,7 @@
 		77E5219E1E9D254400D73D47 /* Tafe_Adelaide_Campus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77E5219D1E9D254400D73D47 /* Tafe_Adelaide_Campus.jpg */; };
 		77F293E11E9A3FF200868448 /* Moodle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F293E01E9A3FF200868448 /* Moodle.swift */; };
 		77F9316A1E97888A00FE6CB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77F931691E97888A00FE6CB4 /* Assets.xcassets */; };
+		A5DBFBBB1EE9343500FC3F12 /* OneNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DBFBBA1EE9343500FC3F12 /* OneNote.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +116,7 @@
 		77E5219D1E9D254400D73D47 /* Tafe_Adelaide_Campus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tafe_Adelaide_Campus.jpg; sourceTree = "<group>"; };
 		77F293E01E9A3FF200868448 /* Moodle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Moodle.swift; sourceTree = "<group>"; };
 		77F931691E97888A00FE6CB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5DBFBBA1EE9343500FC3F12 /* OneNote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneNote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +252,7 @@
 		77AAB7021E9B4D2600B99AFF /* Button View */ = {
 			isa = PBXGroup;
 			children = (
+				A5DBFBBA1EE9343500FC3F12 /* OneNote.swift */,
 				7754F7B31E97BECE0091B082 /* CampusMapTableView.swift */,
 				7754F7B11E97B8570091B082 /* Campus Map.swift */,
 				7754F7B51E97C0590091B082 /* CampusDetails.swift */,
@@ -425,6 +428,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5DBFBBB1EE9343500FC3F12 /* OneNote.swift in Sources */,
 				7754F7B41E97BECE0091B082 /* CampusMapTableView.swift in Sources */,
 				27163E5A1EDC2DB900E605E4 /* TimeTable.swift in Sources */,
 				77116F261E968BB700CB37FD /* CourseInfo.swift in Sources */,

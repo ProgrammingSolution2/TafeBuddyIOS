@@ -7,7 +7,7 @@ import UIKit
 
 class OneNote: UIViewController
 {
-	@IBOutlet weak var loadingIndicator: UIActivityIndicatorView!
+    @IBOutlet weak var loading2: UIActivityIndicatorView!
     @IBOutlet weak var timeTableWebView: UIWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,11 +25,11 @@ class OneNote: UIViewController
     }
     
     func webViewDidStartLoad(_ webView: UIWebView){
-        loadingIndicator.startAnimating()
+        loading2.startAnimating()
     }
     
     func webViewDidFinishLoad(_ webView: UIWebView){
-        loadingIndicator.stopAnimating()
+        loading2.stopAnimating()
     }
     
     func webView(_ webView: UIWebView, didFailLoadWithError error: Error){
