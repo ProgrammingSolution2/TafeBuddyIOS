@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class onedrive: UIViewController {
+class OneDrive: UIViewController {
     @IBOutlet weak var webView: UIWebView!
     @IBOutlet weak var loadingIndicator: UIActivityIndicatorView!
     
