@@ -7,7 +7,7 @@ import UIKit
 
 class Tasks: UIViewController
 {
-	@IBOutlet weak var loadingIndicator: UIActivityIndicatorView!
+    @IBOutlet weak var loadingTasks: UIActivityIndicatorView!
     @IBOutlet weak var timeTableWebView: UIWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,11 +25,11 @@ class Tasks: UIViewController
     }
     
     func webViewDidStartLoad(_ webView: UIWebView){
-        loadingIndicator.startAnimating()
+        loadingTasks.startAnimating()
     }
     
     func webViewDidFinishLoad(_ webView: UIWebView){
-        loadingIndicator.stopAnimating()
+        loadingTasks.stopAnimating()
     }
     
     func webView(_ webView: UIWebView, didFailLoadWithError error: Error){

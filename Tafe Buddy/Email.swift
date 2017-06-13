@@ -9,7 +9,7 @@ import UIKit
 
 class Email: UIViewController {
     @IBOutlet weak var webView: UIWebView!    
-    @IBOutlet weak var loadingIndicator: UIActivityIndicatorView!
+    @IBOutlet weak var loading25: UIActivityIndicatorView!
 
     
     override func viewDidLoad() {
@@ -27,11 +27,11 @@ class Email: UIViewController {
     }
     
     func webViewDidStartLoad(_ webView: UIWebView){
-        loadingIndicator.startAnimating()
+        loading25.startAnimating()
     }
     
     func webViewDidFinishLoad(_ webView: UIWebView){
-        loadingIndicator.stopAnimating()
+        loading25.stopAnimating()
     }
     
     func webView(_ webView: UIWebView, didFailLoadWithError error: Error){
