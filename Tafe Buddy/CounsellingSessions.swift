@@ -2,8 +2,7 @@
 //  CounsellingSessions.swift
 //  Tafe Buddy
 //
-//  Created by Hai on 29/5/17.
-//  Copyright © 2017 Ti Chuot. All rights reserved.
+//  Created by Hai LIN & Jakia on 29/5/17.
 //
 
 import UIKit
