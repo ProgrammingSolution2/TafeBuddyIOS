@@ -10,6 +10,19 @@ import UIKit
 
 class Settings: UIViewController {
     
+    @IBOutlet weak var tableView: UITableView!
+    
+    @IBOutlet weak var nameLabel: UILabel!
+    
+    @IBAction func rssSwitch(_ sender: UISwitch) {
+        
+        
+        
+    }
+   
+    
+    
+    
     var array = [AnyObject]()
     
     func numberOfSections(in tableView: UITableView) -> Int {return 1}
@@ -18,11 +31,13 @@ class Settings: UIViewController {
         return array.count
     }
     
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat{return 70}
+    //func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat{return 70}
     
-    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat{return 60}
+    //func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat{return 60}
     
-    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat{return 90}
+    //func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat{return 90}
+    
+    
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return "Settings"

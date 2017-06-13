@@ -11,7 +11,10 @@ import AVFoundation //import this to play sound
 
 
 class ViewController: UIViewController {
+    //[[NSNotificationCenter defaultCenter] postNotificationName:@"sendData" object:nameLabel userInfo:nil];
+
     
+    @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var countsellingSessions: UIButton!
     @IBOutlet weak var courseInfoBtn: UIButton!
     @IBOutlet weak var buttonViewTrailing: NSLayoutConstraint!
