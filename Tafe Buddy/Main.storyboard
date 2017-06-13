@@ -771,6 +771,7 @@ Sessions</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rWa-0W-U5i" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3972" y="992.65367316341838"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="Bqi-SC-wZO">
             <objects>
