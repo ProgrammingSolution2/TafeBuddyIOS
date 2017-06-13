@@ -48,6 +48,7 @@
 		77E5219E1E9D254400D73D47 /* Tafe_Adelaide_Campus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77E5219D1E9D254400D73D47 /* Tafe_Adelaide_Campus.jpg */; };
 		77F293E11E9A3FF200868448 /* Moodle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F293E01E9A3FF200868448 /* Moodle.swift */; };
 		77F9316A1E97888A00FE6CB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77F931691E97888A00FE6CB4 /* Assets.xcassets */; };
+		805039601EDE651B003D3656 /* onedrive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8050395F1EDE651B003D3656 /* onedrive.swift */; };
 		AEE4597A1EE006D4006CC01D /* MyAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE459791EE006D4006CC01D /* MyAccount.swift */; };
 /* End PBXBuildFile section */
 
@@ -116,6 +117,7 @@
 		77E5219D1E9D254400D73D47 /* Tafe_Adelaide_Campus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tafe_Adelaide_Campus.jpg; sourceTree = "<group>"; };
 		77F293E01E9A3FF200868448 /* Moodle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Moodle.swift; sourceTree = "<group>"; };
 		77F931691E97888A00FE6CB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8050395F1EDE651B003D3656 /* onedrive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = onedrive.swift; sourceTree = "<group>"; };
 		AEE459791EE006D4006CC01D /* MyAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAccount.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -245,6 +247,7 @@
 				77D571FE1E9D1F3F0028DF65 /* Settings.swift */,
 				779D00E31EBB319A00A7E64F /* QRScan.swift */,
 				771AA0901EBB71C600AC54F3 /* QRHistory.swift */,
+				8050395F1EDE651B003D3656 /* onedrive.swift */,
 				AEE459791EE006D4006CC01D /* MyAccount.swift */,
 			);
 			name = "Menu View";
@@ -433,6 +436,7 @@
 				77116F261E968BB700CB37FD /* CourseInfo.swift in Sources */,
 				77F293E11E9A3FF200868448 /* Moodle.swift in Sources */,
 				77116F251E968BB700CB37FD /* MainScreen.swift in Sources */,
+				805039601EDE651B003D3656 /* onedrive.swift in Sources */,
 				77116EF11E968BA100CB37FD /* AppDelegate.swift in Sources */,
 				771AA0911EBB71C600AC54F3 /* QRHistory.swift in Sources */,
 				77116F241E968BB700CB37FD /* SignIn.swift in Sources */,
