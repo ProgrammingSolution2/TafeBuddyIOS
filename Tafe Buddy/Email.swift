@@ -1,29 +1,29 @@
 //
-//  TimeTable.swift
+//  Email.swift
 //  Tafe Buddy
 //
-//  Created by Hai LIN & Michal Stawiarz on 29/5/17.
+//  Created by Sean Cannon-Cutting on 7/6/17.
+//  Copyright © 2017 Sean Cannon-Cutting. All rights reserved.
 //
-
 import UIKit
 
-class TimeTable: UIViewController {
-
+class Email: UIViewController {
+    @IBOutlet weak var webView: UIWebView!    
     @IBOutlet weak var loadingIndicator: UIActivityIndicatorView!
-    @IBOutlet weak var timeTableWebView: UIWebView!
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        let url  = URL(string:"https://my.tafesa.edu.au/PROD/bwskfshd.P_CrseSchd")
+        let url  = URL(string:"https://outlook.office.com")
         let requestObject = URLRequest(url: url!)
-        self.timeTableWebView.loadRequest(requestObject)
-        timeTableWebView.scrollView.bounces = false
+        self.webView.loadRequest(requestObject)
+        webView.scrollView.bounces = false
         self.navigationController?.navigationBar.isTranslucent = false
-        //navigationController?.navigationBar.barTintColor = UIColor.red
     }
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        //self.navigationController?.hidesBarsOnSwipe = true
+        self.navigationController?.hidesBarsOnSwipe = true
     }
     
     func webViewDidStartLoad(_ webView: UIWebView){
@@ -37,5 +37,5 @@ class TimeTable: UIViewController {
     func webView(_ webView: UIWebView, didFailLoadWithError error: Error){
         
     }
-    
+
 }
