@@ -48,10 +48,7 @@
 		77E5219E1E9D254400D73D47 /* Tafe_Adelaide_Campus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77E5219D1E9D254400D73D47 /* Tafe_Adelaide_Campus.jpg */; };
 		77F293E11E9A3FF200868448 /* Moodle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F293E01E9A3FF200868448 /* Moodle.swift */; };
 		77F9316A1E97888A00FE6CB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77F931691E97888A00FE6CB4 /* Assets.xcassets */; };
-		8050395C1EDE62C0003D3656 /* FAQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8050395B1EDE62C0003D3656 /* FAQ.swift */; };
 		805039601EDE651B003D3656 /* onedrive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8050395F1EDE651B003D3656 /* onedrive.swift */; };
-		907FF53F1EF0641D005D17CA /* OneNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907FF53E1EF0641D005D17CA /* OneNote.swift */; };
-		AE6BCCDC1EF0C7F300A7D7DD /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6BCCDB1EF0C7F300A7D7DD /* Tasks.swift */; };
 		AEE4597A1EE006D4006CC01D /* MyAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE459791EE006D4006CC01D /* MyAccount.swift */; };
 /* End PBXBuildFile section */
 
@@ -120,10 +117,7 @@
 		77E5219D1E9D254400D73D47 /* Tafe_Adelaide_Campus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tafe_Adelaide_Campus.jpg; sourceTree = "<group>"; };
 		77F293E01E9A3FF200868448 /* Moodle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Moodle.swift; sourceTree = "<group>"; };
 		77F931691E97888A00FE6CB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8050395B1EDE62C0003D3656 /* FAQ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQ.swift; sourceTree = "<group>"; };
 		8050395F1EDE651B003D3656 /* onedrive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = onedrive.swift; sourceTree = "<group>"; };
-		907FF53E1EF0641D005D17CA /* OneNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OneNote.swift; path = "Tafe Buddy/OneNote.swift"; sourceTree = "<group>"; };
-		AE6BCCDB1EF0C7F300A7D7DD /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Tasks.swift; path = "Tafe Buddy/Tasks.swift"; sourceTree = "<group>"; };
 		AEE459791EE006D4006CC01D /* MyAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAccount.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,8 +149,6 @@
 		77116EE41E968BA100CB37FD = {
 			isa = PBXGroup;
 			children = (
-				AE6BCCDB1EF0C7F300A7D7DD /* Tasks.swift */,
-				907FF53E1EF0641D005D17CA /* OneNote.swift */,
 				77116EEF1E968BA100CB37FD /* Tafe Buddy */,
 				77116F391E968BF300CB37FD /* Images */,
 				77116F381E968BEA00CB37FD /* Sound */,
@@ -255,7 +247,6 @@
 				77D571FE1E9D1F3F0028DF65 /* Settings.swift */,
 				779D00E31EBB319A00A7E64F /* QRScan.swift */,
 				771AA0901EBB71C600AC54F3 /* QRHistory.swift */,
-				8050395B1EDE62C0003D3656 /* FAQ.swift */,
 				8050395F1EDE651B003D3656 /* onedrive.swift */,
 				AEE459791EE006D4006CC01D /* MyAccount.swift */,
 			);
@@ -440,8 +431,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE6BCCDC1EF0C7F300A7D7DD /* Tasks.swift in Sources */,
-				907FF53F1EF0641D005D17CA /* OneNote.swift in Sources */,
 				7754F7B41E97BECE0091B082 /* CampusMapTableView.swift in Sources */,
 				27163E5A1EDC2DB900E605E4 /* TimeTable.swift in Sources */,
 				77116F261E968BB700CB37FD /* CourseInfo.swift in Sources */,
@@ -456,7 +445,6 @@
 				7754F7B61E97C0590091B082 /* CampusDetails.swift in Sources */,
 				AEE4597A1EE006D4006CC01D /* MyAccount.swift in Sources */,
 				7754F7B21E97B8570091B082 /* Campus Map.swift in Sources */,
-				8050395C1EDE62C0003D3656 /* FAQ.swift in Sources */,
 				77D571FF1E9D1F3F0028DF65 /* Settings.swift in Sources */,
 				77116F271E968BB700CB37FD /* Video.swift in Sources */,
 				779D00E41EBB319A00A7E64F /* QRScan.swift in Sources */,

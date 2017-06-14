@@ -1,26 +1,23 @@
 //
-//  FAQ.swift
+//  MyAccount.swift
 //  Tafe Buddy
 //
-//  Created by Sergio TIMPANO (001018133) on 31/5/17.
+//  Created by Michal STAWIARZ (000927949) on 1/6/17.
 //  Copyright © 2017 Ti Chuot. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
-class FAQ: UIViewController {
-    @IBOutlet weak var webView: UIWebView!
-    @IBOutlet weak var loadingIndicator: UIActivityIndicatorView!
-    
+class MyAccount: UIViewController {
+
+    @IBOutlet weak var accountWebView: UIWebView!
+    @IBOutlet weak var accountIndicator: UIActivityIndicatorView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let url  = URL(string:"https://www.tafesa.edu.au/mytafe-sa/help")
+        let url  = URL(string:"https://my.tafesa.edu.au/PROD/bwsksphs.P_ViewStatement")
         let requestObject = URLRequest(url: url!)
-        self.webView.loadRequest(requestObject)
-        webView.scrollView.bounces = false
-        self.navigationController?.navigationBar.isTranslucent = false
+        self.accountWebView.loadRequest(requestObject)
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -29,15 +26,14 @@ class FAQ: UIViewController {
     }
     
     func webViewDidStartLoad(_ webView: UIWebView){
-        loadingIndicator.startAnimating()
+        accountIndicator.startAnimating()
     }
     
     func webViewDidFinishLoad(_ webView: UIWebView){
-        loadingIndicator.stopAnimating()
+        accountIndicator.stopAnimating()
     }
     
     func webView(_ webView: UIWebView, didFailLoadWithError error: Error){
         
     }
-    
 }
