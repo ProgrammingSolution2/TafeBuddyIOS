@@ -12,8 +12,23 @@
 		1F7CAC331EF0FD4A004442FA /* CourseInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7CAC321EF0FD4A004442FA /* CourseInfo.swift */; };
 		1F7CAC351EF0FE5A004442FA /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7CAC341EF0FE5A004442FA /* Video.swift */; };
 		27163E541EDBD97300E605E4 /* CounsellingSessions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27163E531EDBD97300E605E4 /* CounsellingSessions.swift */; };
-		27163E581EDBE33900E605E4 /* ic_counselling.gif in Resources */ = {isa = PBXBuildFile; fileRef = 27163E571EDBE33900E605E4 /* ic_counselling.gif */; };
 		27163E5A1EDC2DB900E605E4 /* TimeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27163E591EDC2DB900E605E4 /* TimeTable.swift */; };
+		278ED2201EF16C48006D173B /* ic_counselling session.png in Resources */ = {isa = PBXBuildFile; fileRef = 278ED21F1EF16C48006D173B /* ic_counselling session.png */; };
+		278ED2221EF16D91006D173B /* ic_Email.png in Resources */ = {isa = PBXBuildFile; fileRef = 278ED2211EF16D91006D173B /* ic_Email.png */; };
+		278ED2241EF16ED7006D173B /* ic_Campus Maps.png in Resources */ = {isa = PBXBuildFile; fileRef = 278ED2231EF16ED7006D173B /* ic_Campus Maps.png */; };
+		278ED2261EF16F2B006D173B /* ic_TimeTable.png in Resources */ = {isa = PBXBuildFile; fileRef = 278ED2251EF16F2B006D173B /* ic_TimeTable.png */; };
+		278ED2281EF16FA9006D173B /* ic_FAQ.png in Resources */ = {isa = PBXBuildFile; fileRef = 278ED2271EF16FA9006D173B /* ic_FAQ.png */; };
+		278ED22A1EF171E4006D173B /* ic_My Account.png in Resources */ = {isa = PBXBuildFile; fileRef = 278ED2291EF171E4006D173B /* ic_My Account.png */; };
+		278ED22C1EF17638006D173B /* ic_Course Information.png in Resources */ = {isa = PBXBuildFile; fileRef = 278ED22B1EF17638006D173B /* ic_Course Information.png */; };
+		278ED2301EF177ED006D173B /* ic_Video.png in Resources */ = {isa = PBXBuildFile; fileRef = 278ED22F1EF177ED006D173B /* ic_Video.png */; };
+		278ED2321EF178A7006D173B /* ic_OneDrive.png in Resources */ = {isa = PBXBuildFile; fileRef = 278ED2311EF178A7006D173B /* ic_OneDrive.png */; };
+		278ED2341EF17923006D173B /* ic_OneNote.png in Resources */ = {isa = PBXBuildFile; fileRef = 278ED2331EF17923006D173B /* ic_OneNote.png */; };
+		278ED2361EF17A01006D173B /* ic_Moodle.png in Resources */ = {isa = PBXBuildFile; fileRef = 278ED2351EF17A01006D173B /* ic_Moodle.png */; };
+		278ED2381EF17AC1006D173B /* ic_Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 278ED2371EF17AC1006D173B /* ic_Settings.png */; };
+		278ED23A1EF17B09006D173B /* ic_QR_code_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 278ED2391EF17B09006D173B /* ic_QR_code_red.png */; };
+		278ED23E1EF181D8006D173B /* ic_Tasks.png in Resources */ = {isa = PBXBuildFile; fileRef = 278ED23D1EF181D8006D173B /* ic_Tasks.png */; };
+		278ED2401EF182A0006D173B /* ic_MenuButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 278ED23F1EF182A0006D173B /* ic_MenuButton.png */; };
+		278ED2421EF18D27006D173B /* tafeadelaide.png in Resources */ = {isa = PBXBuildFile; fileRef = 278ED2411EF18D27006D173B /* tafeadelaide.png */; };
 		77116EF11E968BA100CB37FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77116EF01E968BA100CB37FD /* AppDelegate.swift */; };
 		77116F061E968BA100CB37FD /* Tafe_BuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77116F051E968BA100CB37FD /* Tafe_BuddyTests.swift */; };
 		77116F111E968BA100CB37FD /* Tafe_BuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77116F101E968BA100CB37FD /* Tafe_BuddyUITests.swift */; };
@@ -33,15 +48,8 @@
 		7754F7B61E97C0590091B082 /* CampusDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7754F7B51E97C0590091B082 /* CampusDetails.swift */; };
 		7783EBE31EC47C85003F94CA /* tafelogored.png in Resources */ = {isa = PBXBuildFile; fileRef = 7783EBE21EC47C85003F94CA /* tafelogored.png */; };
 		7783EBE71EC47D4E003F94CA /* ic_menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 7783EBE61EC47D4E003F94CA /* ic_menu.png */; };
-		7783EBEF1EC48770003F94CA /* ic_email_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7783EBEE1EC48770003F94CA /* ic_email_3x.png */; };
-		7783EBF31EC487F9003F94CA /* ic_map_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7783EBF21EC487F9003F94CA /* ic_map_3x.png */; };
-		7783EBF51EC48889003F94CA /* ic_cast_connected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7783EBF41EC48889003F94CA /* ic_cast_connected.png */; };
-		7783EBF71EC48A75003F94CA /* ic_photo_library.png in Resources */ = {isa = PBXBuildFile; fileRef = 7783EBF61EC48A75003F94CA /* ic_photo_library.png */; };
 		7783EBF91EC48AE6003F94CA /* ic_alarm_add.png in Resources */ = {isa = PBXBuildFile; fileRef = 7783EBF81EC48AE6003F94CA /* ic_alarm_add.png */; };
-		7783EBFB1EC48B31003F94CA /* ic_account_box.png in Resources */ = {isa = PBXBuildFile; fileRef = 7783EBFA1EC48B31003F94CA /* ic_account_box.png */; };
 		7783EBFD1EC48B50003F94CA /* ic_info.png in Resources */ = {isa = PBXBuildFile; fileRef = 7783EBFC1EC48B50003F94CA /* ic_info.png */; };
-		7783EBFF1EC48BC9003F94CA /* ic_build.png in Resources */ = {isa = PBXBuildFile; fileRef = 7783EBFE1EC48BC9003F94CA /* ic_build.png */; };
-		7783EC031EC48CD5003F94CA /* qr-code.ico in Resources */ = {isa = PBXBuildFile; fileRef = 7783EC021EC48CD5003F94CA /* qr-code.ico */; };
 		779D00E41EBB319A00A7E64F /* QRScan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779D00E31EBB319A00A7E64F /* QRScan.swift */; };
 		77AAB7041E9B4DD100B99AFF /* PasswordReset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AAB7031E9B4DD100B99AFF /* PasswordReset.swift */; };
 		77D571FF1E9D1F3F0028DF65 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D571FE1E9D1F3F0028DF65 /* Settings.swift */; };
@@ -79,8 +87,23 @@
 		1F7CAC321EF0FD4A004442FA /* CourseInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseInfo.swift; sourceTree = "<group>"; };
 		1F7CAC341EF0FE5A004442FA /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		27163E531EDBD97300E605E4 /* CounsellingSessions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounsellingSessions.swift; sourceTree = "<group>"; };
-		27163E571EDBE33900E605E4 /* ic_counselling.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ic_counselling.gif; sourceTree = "<group>"; };
 		27163E591EDC2DB900E605E4 /* TimeTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeTable.swift; sourceTree = "<group>"; };
+		278ED21F1EF16C48006D173B /* ic_counselling session.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_counselling session.png"; sourceTree = "<group>"; };
+		278ED2211EF16D91006D173B /* ic_Email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_Email.png; sourceTree = "<group>"; };
+		278ED2231EF16ED7006D173B /* ic_Campus Maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_Campus Maps.png"; sourceTree = "<group>"; };
+		278ED2251EF16F2B006D173B /* ic_TimeTable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_TimeTable.png; sourceTree = "<group>"; };
+		278ED2271EF16FA9006D173B /* ic_FAQ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_FAQ.png; sourceTree = "<group>"; };
+		278ED2291EF171E4006D173B /* ic_My Account.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_My Account.png"; sourceTree = "<group>"; };
+		278ED22B1EF17638006D173B /* ic_Course Information.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_Course Information.png"; sourceTree = "<group>"; };
+		278ED22F1EF177ED006D173B /* ic_Video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_Video.png; sourceTree = "<group>"; };
+		278ED2311EF178A7006D173B /* ic_OneDrive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_OneDrive.png; sourceTree = "<group>"; };
+		278ED2331EF17923006D173B /* ic_OneNote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_OneNote.png; sourceTree = "<group>"; };
+		278ED2351EF17A01006D173B /* ic_Moodle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_Moodle.png; sourceTree = "<group>"; };
+		278ED2371EF17AC1006D173B /* ic_Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_Settings.png; sourceTree = "<group>"; };
+		278ED2391EF17B09006D173B /* ic_QR_code_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_QR_code_red.png; sourceTree = "<group>"; };
+		278ED23D1EF181D8006D173B /* ic_Tasks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_Tasks.png; sourceTree = "<group>"; };
+		278ED23F1EF182A0006D173B /* ic_MenuButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_MenuButton.png; sourceTree = "<group>"; };
+		278ED2411EF18D27006D173B /* tafeadelaide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tafeadelaide.png; sourceTree = "<group>"; };
 		77116EED1E968BA100CB37FD /* Tafe Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tafe Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77116EF01E968BA100CB37FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77116EFC1E968BA100CB37FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -106,15 +129,8 @@
 		7754F7B51E97C0590091B082 /* CampusDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CampusDetails.swift; sourceTree = "<group>"; };
 		7783EBE21EC47C85003F94CA /* tafelogored.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tafelogored.png; sourceTree = "<group>"; };
 		7783EBE61EC47D4E003F94CA /* ic_menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu.png; sourceTree = "<group>"; };
-		7783EBEE1EC48770003F94CA /* ic_email_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_email_3x.png; sourceTree = "<group>"; };
-		7783EBF21EC487F9003F94CA /* ic_map_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_map_3x.png; sourceTree = "<group>"; };
-		7783EBF41EC48889003F94CA /* ic_cast_connected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_cast_connected.png; sourceTree = "<group>"; };
-		7783EBF61EC48A75003F94CA /* ic_photo_library.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_photo_library.png; sourceTree = "<group>"; };
 		7783EBF81EC48AE6003F94CA /* ic_alarm_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_alarm_add.png; sourceTree = "<group>"; };
-		7783EBFA1EC48B31003F94CA /* ic_account_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_account_box.png; sourceTree = "<group>"; };
 		7783EBFC1EC48B50003F94CA /* ic_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_info.png; sourceTree = "<group>"; };
-		7783EBFE1EC48BC9003F94CA /* ic_build.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_build.png; sourceTree = "<group>"; };
-		7783EC021EC48CD5003F94CA /* qr-code.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "qr-code.ico"; sourceTree = "<group>"; };
 		779D00E31EBB319A00A7E64F /* QRScan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScan.swift; sourceTree = "<group>"; };
 		77AAB7031E9B4DD100B99AFF /* PasswordReset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordReset.swift; sourceTree = "<group>"; };
 		77D571FE1E9D1F3F0028DF65 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
@@ -226,16 +242,24 @@
 		77116F391E968BF300CB37FD /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				7783EC021EC48CD5003F94CA /* qr-code.ico */,
-				7783EBFE1EC48BC9003F94CA /* ic_build.png */,
-				27163E571EDBE33900E605E4 /* ic_counselling.gif */,
+				278ED2291EF171E4006D173B /* ic_My Account.png */,
+				278ED2251EF16F2B006D173B /* ic_TimeTable.png */,
+				278ED2271EF16FA9006D173B /* ic_FAQ.png */,
 				7783EBFC1EC48B50003F94CA /* ic_info.png */,
-				7783EBFA1EC48B31003F94CA /* ic_account_box.png */,
+				278ED2411EF18D27006D173B /* tafeadelaide.png */,
+				278ED23D1EF181D8006D173B /* ic_Tasks.png */,
+				278ED23F1EF182A0006D173B /* ic_MenuButton.png */,
+				278ED2311EF178A7006D173B /* ic_OneDrive.png */,
+				278ED22F1EF177ED006D173B /* ic_Video.png */,
+				278ED2391EF17B09006D173B /* ic_QR_code_red.png */,
+				278ED2371EF17AC1006D173B /* ic_Settings.png */,
+				278ED22B1EF17638006D173B /* ic_Course Information.png */,
+				278ED21F1EF16C48006D173B /* ic_counselling session.png */,
+				278ED2351EF17A01006D173B /* ic_Moodle.png */,
+				278ED2331EF17923006D173B /* ic_OneNote.png */,
+				278ED2231EF16ED7006D173B /* ic_Campus Maps.png */,
+				278ED2211EF16D91006D173B /* ic_Email.png */,
 				7783EBF81EC48AE6003F94CA /* ic_alarm_add.png */,
-				7783EBF61EC48A75003F94CA /* ic_photo_library.png */,
-				7783EBF41EC48889003F94CA /* ic_cast_connected.png */,
-				7783EBF21EC487F9003F94CA /* ic_map_3x.png */,
-				7783EBEE1EC48770003F94CA /* ic_email_3x.png */,
 				7783EBE61EC47D4E003F94CA /* ic_menu.png */,
 				7783EBE21EC47C85003F94CA /* tafelogored.png */,
 				77E5219D1E9D254400D73D47 /* Tafe_Adelaide_Campus.jpg */,
@@ -396,27 +420,35 @@
 			files = (
 				77116F361E968BE700CB37FD /* Pop.wav in Resources */,
 				77E5219E1E9D254400D73D47 /* Tafe_Adelaide_Campus.jpg in Resources */,
-				7783EBFF1EC48BC9003F94CA /* ic_build.png in Resources */,
+				278ED22C1EF17638006D173B /* ic_Course Information.png in Resources */,
 				77116F351E968BE700CB37FD /* Keyboard.wav in Resources */,
 				77116F311E968BDE00CB37FD /* South_Aust.png in Resources */,
 				77116F301E968BDE00CB37FD /* logo_TAFESA.png in Resources */,
-				7783EC031EC48CD5003F94CA /* qr-code.ico in Resources */,
+				278ED23E1EF181D8006D173B /* ic_Tasks.png in Resources */,
+				278ED2241EF16ED7006D173B /* ic_Campus Maps.png in Resources */,
+				278ED2321EF178A7006D173B /* ic_OneDrive.png in Resources */,
+				278ED2201EF16C48006D173B /* ic_counselling session.png in Resources */,
+				278ED2361EF17A01006D173B /* ic_Moodle.png in Resources */,
 				7783EBE31EC47C85003F94CA /* tafelogored.png in Resources */,
-				7783EBF51EC48889003F94CA /* ic_cast_connected.png in Resources */,
+				278ED2421EF18D27006D173B /* tafeadelaide.png in Resources */,
 				18F29B4F1ED6C36A00D0BFD8 /* LaunchScreen.storyboard in Resources */,
+				278ED22A1EF171E4006D173B /* ic_My Account.png in Resources */,
+				278ED2301EF177ED006D173B /* ic_Video.png in Resources */,
+				278ED2281EF16FA9006D173B /* ic_FAQ.png in Resources */,
+				278ED2221EF16D91006D173B /* ic_Email.png in Resources */,
 				7783EBFD1EC48B50003F94CA /* ic_info.png in Resources */,
 				77116F2F1E968BDE00CB37FD /* training-winner.jpg in Resources */,
+				278ED2261EF16F2B006D173B /* ic_TimeTable.png in Resources */,
 				18F29B501ED6C36A00D0BFD8 /* Main.storyboard in Resources */,
-				7783EBFB1EC48B31003F94CA /* ic_account_box.png in Resources */,
-				7783EBF31EC487F9003F94CA /* ic_map_3x.png in Resources */,
 				77116F2D1E968BDE00CB37FD /* tafe.png in Resources */,
 				77116F2E1E968BDE00CB37FD /* gov.png in Resources */,
-				7783EBF71EC48A75003F94CA /* ic_photo_library.png in Resources */,
+				278ED2401EF182A0006D173B /* ic_MenuButton.png in Resources */,
+				278ED23A1EF17B09006D173B /* ic_QR_code_red.png in Resources */,
 				7783EBE71EC47D4E003F94CA /* ic_menu.png in Resources */,
+				278ED2341EF17923006D173B /* ic_OneNote.png in Resources */,
 				7783EBF91EC48AE6003F94CA /* ic_alarm_add.png in Resources */,
-				27163E581EDBE33900E605E4 /* ic_counselling.gif in Resources */,
-				7783EBEF1EC48770003F94CA /* ic_email_3x.png in Resources */,
 				77F9316A1E97888A00FE6CB4 /* Assets.xcassets in Resources */,
+				278ED2381EF17AC1006D173B /* ic_Settings.png in Resources */,
 				77116F371E968BE700CB37FD /* Wave.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
