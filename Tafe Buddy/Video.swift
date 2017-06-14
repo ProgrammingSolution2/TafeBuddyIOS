@@ -1,8 +1,8 @@
 //
-//  TimeTable.swift
-//  Study Plan v2
+//  Video.swift
+//  Tafe Buddy
 //
-//  Created by Ti Chuot on 23/2/17.
+//  Created by Trung Le on 14/06/2017.
 //  Copyright © 2017 Ti Chuot. All rights reserved.
 //
 
@@ -10,29 +10,32 @@ import UIKit
 
 class Video: UIViewController {
     
-    
+    @IBOutlet var webView:UIWebView!
+    //Set Delegate for UIWebView, the Activity Indicator will start animating when web is loading
+    @IBOutlet weak var loadingIndicator: UIActivityIndicatorView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //Change the back button color
-        self.navigationController?.navigationBar.tintColor = UIColor.white
-        
-        //CHange navigation item Title color
-        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
-        
-        //Hide keyboard by tapping anywhere
-        self.hideKeyboardWhenTappedAround()
+        let url  = URL(string:"https://youtu.be/kxt2TBktLno")
+        let requestObject = URLRequest(url: url!)
+        self.webView.loadRequest(requestObject)
     }
     
-    //Hide keyboard by tapping anywhere
-    func hideKeyboardWhenTappedAround() {
-        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(SignIn.dismissKeyboard))
-        view.addGestureRecognizer(tap)
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        self.navigationController?.hidesBarsOnSwipe = true
     }
     
-    func dismissKeyboard() {
-        view.endEditing(true)
+    func webViewDidStartLoad(_ webView: UIWebView){
+        loadingIndicator.startAnimating()
     }
-
+    
+    func webViewDidFinishLoad(_ webView: UIWebView){
+        loadingIndicator.stopAnimating()
+    }
+    
+    func webView(_ webView: UIWebView, didFailLoadWithError error: Error){
+        
+    }
     
 }
