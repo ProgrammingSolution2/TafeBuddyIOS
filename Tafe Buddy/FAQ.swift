@@ -2,7 +2,7 @@
 //  FAQ.swift
 //  Tafe Buddy
 //
-//  Created by Sergio TIMPANO (001018133) on 31/5/17.
+//  Created by Sergio TIMPANO (001018133), Adam Seery on 31/5/17.
 //  Copyright © 2017 Ti Chuot. All rights reserved.
 //
 

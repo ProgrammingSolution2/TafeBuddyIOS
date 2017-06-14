@@ -49,9 +49,10 @@
 		77F293E11E9A3FF200868448 /* Moodle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F293E01E9A3FF200868448 /* Moodle.swift */; };
 		77F9316A1E97888A00FE6CB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77F931691E97888A00FE6CB4 /* Assets.xcassets */; };
 		8050395C1EDE62C0003D3656 /* FAQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8050395B1EDE62C0003D3656 /* FAQ.swift */; };
-		805039601EDE651B003D3656 /* onedrive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8050395F1EDE651B003D3656 /* onedrive.swift */; };
 		907FF53F1EF0641D005D17CA /* OneNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907FF53E1EF0641D005D17CA /* OneNote.swift */; };
 		AE6BCCDC1EF0C7F300A7D7DD /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6BCCDB1EF0C7F300A7D7DD /* Tasks.swift */; };
+		AE6BCCDE1EF0D5B700A7D7DD /* Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6BCCDD1EF0D5B700A7D7DD /* Email.swift */; };
+		AE6BCCE21EF0E24D00A7D7DD /* onedrive.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6BCCE11EF0E24D00A7D7DD /* onedrive.swift */; };
 		AEE4597A1EE006D4006CC01D /* MyAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE459791EE006D4006CC01D /* MyAccount.swift */; };
 /* End PBXBuildFile section */
 
@@ -121,9 +122,10 @@
 		77F293E01E9A3FF200868448 /* Moodle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Moodle.swift; sourceTree = "<group>"; };
 		77F931691E97888A00FE6CB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8050395B1EDE62C0003D3656 /* FAQ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQ.swift; sourceTree = "<group>"; };
-		8050395F1EDE651B003D3656 /* onedrive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = onedrive.swift; sourceTree = "<group>"; };
 		907FF53E1EF0641D005D17CA /* OneNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OneNote.swift; path = "Tafe Buddy/OneNote.swift"; sourceTree = "<group>"; };
 		AE6BCCDB1EF0C7F300A7D7DD /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Tasks.swift; path = "Tafe Buddy/Tasks.swift"; sourceTree = "<group>"; };
+		AE6BCCDD1EF0D5B700A7D7DD /* Email.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Email.swift; path = "Tafe Buddy/Email.swift"; sourceTree = "<group>"; };
+		AE6BCCE11EF0E24D00A7D7DD /* onedrive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = onedrive.swift; sourceTree = "<group>"; };
 		AEE459791EE006D4006CC01D /* MyAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAccount.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,6 +157,7 @@
 		77116EE41E968BA100CB37FD = {
 			isa = PBXGroup;
 			children = (
+				AE6BCCDD1EF0D5B700A7D7DD /* Email.swift */,
 				AE6BCCDB1EF0C7F300A7D7DD /* Tasks.swift */,
 				907FF53E1EF0641D005D17CA /* OneNote.swift */,
 				77116EEF1E968BA100CB37FD /* Tafe Buddy */,
@@ -256,8 +259,8 @@
 				779D00E31EBB319A00A7E64F /* QRScan.swift */,
 				771AA0901EBB71C600AC54F3 /* QRHistory.swift */,
 				8050395B1EDE62C0003D3656 /* FAQ.swift */,
-				8050395F1EDE651B003D3656 /* onedrive.swift */,
 				AEE459791EE006D4006CC01D /* MyAccount.swift */,
+				AE6BCCE11EF0E24D00A7D7DD /* onedrive.swift */,
 			);
 			name = "Menu View";
 			sourceTree = "<group>";
@@ -440,6 +443,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE6BCCDE1EF0D5B700A7D7DD /* Email.swift in Sources */,
 				AE6BCCDC1EF0C7F300A7D7DD /* Tasks.swift in Sources */,
 				907FF53F1EF0641D005D17CA /* OneNote.swift in Sources */,
 				7754F7B41E97BECE0091B082 /* CampusMapTableView.swift in Sources */,
@@ -447,8 +451,8 @@
 				77116F261E968BB700CB37FD /* CourseInfo.swift in Sources */,
 				77F293E11E9A3FF200868448 /* Moodle.swift in Sources */,
 				77116F251E968BB700CB37FD /* MainScreen.swift in Sources */,
-				805039601EDE651B003D3656 /* onedrive.swift in Sources */,
 				77116EF11E968BA100CB37FD /* AppDelegate.swift in Sources */,
+				AE6BCCE21EF0E24D00A7D7DD /* onedrive.swift in Sources */,
 				771AA0911EBB71C600AC54F3 /* QRHistory.swift in Sources */,
 				77116F241E968BB700CB37FD /* SignIn.swift in Sources */,
 				77AAB7041E9B4DD100B99AFF /* PasswordReset.swift in Sources */,

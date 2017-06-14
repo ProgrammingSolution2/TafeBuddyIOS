@@ -21,7 +21,7 @@ class Tasks: UIViewController
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        //self.navigationController?.hidesBarsOnSwipe = true
+        self.navigationController?.hidesBarsOnSwipe = true
     }
     
     func webViewDidStartLoad(_ webView: UIWebView){

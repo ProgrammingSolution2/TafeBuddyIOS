@@ -392,6 +392,9 @@
                                                 <state key="normal" title="FAQ">
                                                     <color key="titleColor" red="0.99989169840000003" green="1" blue="0.99988096950000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="ZH6-bR-Aoe" kind="show" id="FFf-44-5if"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -481,7 +484,6 @@ Sessions</string>
                         <outlet property="oneNoteBtn" destination="Iid-p1-BP4" id="D2Q-Bz-DJE"/>
                         <outlet property="tasksBtn" destination="Vta-k7-48b" id="v0Z-pT-ulH"/>
                         <outlet property="videoBtn" destination="ly9-Im-J8o" id="ibY-9h-iOd"/>
-                        <segue destination="ZH6-bR-Aoe" kind="show" id="QCy-dF-3yQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -653,7 +655,6 @@ Sessions</string>
                     </view>
                     <connections>
                         <outlet property="loading25" destination="1pe-bp-mYv" id="NBR-rN-Vxd"/>
-                        <outlet property="loadingIndicator" destination="1pe-bp-mYv" id="Kpt-gu-np5"/>
                         <outlet property="webView" destination="T5B-50-9bN" id="55H-sP-YqS"/>
                     </connections>
                 </viewController>
@@ -810,10 +811,10 @@ Sessions</string>
             </objects>
             <point key="canvasLocation" x="3972" y="992.65367316341838"/>
         </scene>
-        <!--View Controller-->
+        <!--FAQ-->
         <scene sceneID="Bqi-SC-wZO">
             <objects>
-                <viewController id="ZH6-bR-Aoe" sceneMemberID="viewController">
+                <viewController id="ZH6-bR-Aoe" customClass="FAQ" customModule="Tafe_Buddy" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CWP-cX-7WB"/>
                         <viewControllerLayoutGuide type="bottom" id="dEZ-yN-oRX"/>
@@ -821,12 +822,27 @@ Sessions</string>
                     <view key="view" contentMode="scaleToFill" id="G88-1r-rY5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="brD-bK-wDR">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="60k-mx-gFm">
+                                <rect key="frame" x="177" y="323" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="loadingIndicator" destination="60k-mx-gFm" id="lSI-Zq-ic1"/>
+                        <outlet property="webView" destination="brD-bK-wDR" id="Skq-aZ-Lb6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ksh-go-fzp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3972" y="913"/>
+            <point key="canvasLocation" x="4648.8000000000002" y="993.55322338830592"/>
         </scene>
         <!--Course Info-->
         <scene sceneID="TlZ-K9-eBn">
@@ -1033,10 +1049,10 @@ Sessions</string>
             </objects>
             <point key="canvasLocation" x="3204" y="231"/>
         </scene>
-        <!--View Controller-->
+        <!--Onedrive-->
         <scene sceneID="K4x-Fk-pAO">
             <objects>
-                <viewController id="Nni-J5-BGo" sceneMemberID="viewController">
+                <viewController id="Nni-J5-BGo" customClass="onedrive" customModule="Tafe_Buddy" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YBR-1Y-OW3"/>
                         <viewControllerLayoutGuide type="bottom" id="Ya2-JC-Z93"/>
@@ -1045,27 +1061,27 @@ Sessions</string>
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ONE DRIVE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VHF-gT-JVU">
-                                <rect key="frame" x="96" y="152" width="182" height="44"/>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="drj-d7-bXA">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ti" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fwQ-fr-pX5">
-                                <rect key="frame" x="112" y="280" width="182" height="44"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="pXl-nx-itl">
+                                <rect key="frame" x="169" y="315" width="37" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <color key="color" cocoaTouchSystemColor="darkTextColor"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="loadingIndicator" destination="pXl-nx-itl" id="xJQ-Xn-EdK"/>
+                        <outlet property="webView" destination="drj-d7-bXA" id="F7R-Ph-qcZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SKa-6l-e0t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3204" y="-657"/>
+            <point key="canvasLocation" x="3204" y="-657.12143928035982"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="Egr-2O-Hab">
